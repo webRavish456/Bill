@@ -1,0 +1,148 @@
+body{
+  background-color: rgb(8, 7, 77); 
+}
+body::-webkit-scrollbar
+{
+  display: none;
+}
+.bdy {
+  margin:-86px -8px;
+  padding: 0px;
+  color: white;
+  
+  box-sizing: border-box;
+  min-inline-size: 80rem;
+  padding-top: 50px;
+  
+}
+.by{
+  margin:-86px -8px;
+  padding: 0px;
+  color: white;
+  background-color: rgb(8, 7, 77); 
+  box-sizing: border-box;
+  min-inline-size: 80rem;
+  padding-top: 50px;
+}
+
+.header {
+    display: flex;
+   justify-content: center;
+    min-inline-size: 60rem;
+    position: relative;
+    top:30px;
+}
+.head {
+   font-size: 20px;
+ 
+}
+.logo {
+   margin-top: -30px;
+   min-width:10rem;
+}
+.form1{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 23px;
+  z-index: 99;
+  background: rgb(235, 211, 165);
+  width:500px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 9px chocolate;
+  margin-bottom: -290px;
+}
+input{
+  width:300px;
+  height: 28px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 4px;
+  border-color: #bfbfbf;
+  border: 2px solid black;
+  color: black;
+ 
+}
+label{
+  color:darkred;
+  font-weight: bold;
+
+
+}
+.bill{
+ 
+  height:28px;
+  position: relative;
+  resize: none;
+  border-radius: 4px;
+  border-color: #bfbfbf;
+  outline: none;
+  font-weight: bold;
+  font-size: 20px;
+  width:300px;
+  border: 2px solid black;
+  color:black;
+}
+
+.bill::-webkit-scrollbar {
+  width:0px;
+}
+input:hover{
+  background-color: red;
+}
+.bill:hover{
+  background-color: red;
+}
+.but{
+  width:310px;
+  height: 35px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 4px;
+  border-color: #bfbfbf;
+  border: 2px solid black;
+  color: black;
+  background:linear-gradient(to right, crimson,chocolate);
+  margin-bottom: 10px;
+  cursor: pointer;
+ 
+}
+.bt{
+  width:310px;
+  height: 35px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 4px;
+  border-color: #bfbfbf;
+  border: 2px solid black;
+  color: black;
+  background:linear-gradient(to right, crimson,chocolate);
+  margin-bottom: 60px;
+  cursor: pointer;
+}
+.menu{
+  display: flex;
+  justify-content: end;
+  position: relative;
+  right:40px;
+}
+.about{
+  text-decoration: none;
+  padding-left: 10px;
+  color: rgb(252, 11, 11);
+  font-size: 22px;
+  font-weight: bold;
+ 
+}
+.home{
+  text-decoration: none;
+  color: rgb(252, 11, 11);
+  font-size: 22px;
+  font-weight: bold;
+  
+}
+
+
+
+
